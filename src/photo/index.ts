@@ -18,6 +18,23 @@ export const ACCEPTED_PHOTO_FILE_TYPES = [
   'image/jpeg',
 ];
 
+// Core EXIF data
+export interface PhotoExif {
+  aspectRatio: number
+  make?: string
+  model?: string
+  focalLength?: number
+  focalLengthIn35MmFormat?: number
+  fNumber?: number
+  iso?: number
+  exposureTime?: number
+  exposureCompensation?: number
+  latitude?: number
+  longitude?: number
+  filmSimulation?: FilmSimulation
+  takenAt: string
+  takenAtNaive: string
+}
 
 // Raw db insert
 export interface PhotoDbInsert extends PhotoExif {
