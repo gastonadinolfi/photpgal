@@ -1,6 +1,13 @@
 import { FilmSimulation } from '@/simulation';
 import { ABSOLUTE_PATH_FOR_HOME_IMAGE } from '@/site/paths';
 import { formatDateFromPostgresString } from '@/utility/date';
+import {
+  formatAperture,
+  formatIso,
+  formatExposureCompensation,
+  formatExposureTime,
+  formatFocalLength,
+} from '@/utility/exif';
 import camelcaseKeys from 'camelcase-keys';
 import type { Metadata } from 'next';
 
