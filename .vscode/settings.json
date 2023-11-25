@@ -1,0 +1,39 @@
+{
+  "cSpell.words": [
+    "ABCDEFGHIJKLMNOP",
+    "Acros",
+    "ARROWLEFT",
+    "ARROWRIGHT",
+    "Astia",
+    "camelcase",
+    "CredentialsSignin",
+    "Eterna",
+    "exif",
+    "exiftool",
+    "ghijklmnopqrstuv",
+    "hgetall",
+    "hset",
+    "Lightbox",
+    "Makernote",
+    "nanoids",
+    "nextjs",
+    "Provia",
+    "qaub",
+    "QRSTUVWXYZ",
+    "Reala",
+    "skippable",
+    "sonner",
+    "thephotoblog",
+    "trpc",
+    "unnest",
+    "UsKSGcbt",
+    "Velvia",
+    "WRHGZC",
+    "wxyz",
+    "zadd",
+    "zrange"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
