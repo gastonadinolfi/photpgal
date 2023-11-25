@@ -11,6 +11,11 @@ export const ACCEPTED_PHOTO_FILE_TYPES = [
   'image/jpeg',
 ];
 
+// Core EXIF data
+export interface PhotoExif {
+  aspectRatio: number
+  takenAtNaive: string
+}
 
 // Raw db insert
 export interface PhotoDbInsert extends PhotoExif {
