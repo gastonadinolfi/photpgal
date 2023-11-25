@@ -6,10 +6,10 @@ export default function RepoLink() {
   return (
     <span className="inline-flex items-center gap-2 whitespace-nowrap">
       <span className="hidden sm:inline-block">
-        Agencia Lalia
+        LALIA
       </span>
       <Link
-        href="https://lalia.uy"
+        href=""
         target="_blank"
         className={cc(
           'flex items-center gap-1',
@@ -17,6 +17,7 @@ export default function RepoLink() {
           'hover:underline',
         )}
       >
+        LALIA GALERÍA
       </Link>
     </span>
   );
