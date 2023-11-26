@@ -26,6 +26,7 @@ export interface PhotoExif {
   focalLength?: number
   focalLengthIn35MmFormat?: number
   fNumber?: number
+  iso?: number
   exposureTime?: number
   exposureCompensation?: number
   latitude?: number
